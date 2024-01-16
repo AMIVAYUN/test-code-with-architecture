@@ -1,6 +1,6 @@
-package com.example.demo.post.repository;
+package com.example.demo.post.infra;
 
-import com.example.demo.repository.UserEntity;
+import com.example.demo.user.infra.UserEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
