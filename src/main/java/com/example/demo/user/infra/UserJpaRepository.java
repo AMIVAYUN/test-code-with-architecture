@@ -1,7 +1,10 @@
-package com.example.demo.repository;
+package com.example.demo.user.infra;
 
-import com.example.demo.model.UserStatus;
+
 import java.util.Optional;
+
+import com.example.demo.user.domain.UserStatus;
+import com.example.demo.user.infra.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<UserEntity, Long> {
